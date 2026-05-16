@@ -1,12 +1,10 @@
 window._CCSettings = {
     platform: "web-mobile",
-    groupList: [
-        "default"
-    ],
+    groupList: ["default"],
     collisionMatrix: [],
     server: {
         base: "./",
-        cdn: "",
+        cdn: "./",
         md5AssetsMap: {},
         bundleVers: {}
     },
@@ -15,7 +13,6 @@ window._CCSettings = {
         width: 720,
         height: 1280
     },
-    // 核心修复：根治画面全屏偏移、点击位置错位
     fitWidth: true,
     fitHeight: false,
     adaptScreen: true,
