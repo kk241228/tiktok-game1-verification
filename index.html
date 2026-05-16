@@ -5,57 +5,40 @@
 
   <title>Cocos Creator | Stay_Quiet_and_Have_Fun</title>
 
-  <!-- TikTok&移动端完美视口 -->
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover"/>
+        content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1"/>
 
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="format-detection" content="telephone=no">
 
+  <!-- force webkit on 360 -->
   <meta name="renderer" content="webkit"/>
   <meta name="force-rendering" content="webkit"/>
+  <!-- force edge on IE -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="msapplication-tap-highlight" content="no">
 
-  <!-- 强制竖屏全屏 -->
+  <!-- force full screen on some browser -->
   <meta name="full-screen" content="yes"/>
   <meta name="x5-fullscreen" content="true"/>
   <meta name="360-fullscreen" content="true"/>
+  
+  <!-- force screen orientation on some browser -->
   <meta name="screen-orientation" content="portrait"/>
   <meta name="x5-orientation" content="portrait">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
   <meta name="x5-page-mode" content="app">
 
-  <!-- 静态资源路径 完美对应你现有文件 -->
-  <link rel="stylesheet" type="text/css" href="./style-mobile.25fc5.css"/>
-  <link rel="icon" href="./favicon.8de1.ico"/>
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
-  <!-- 修复全屏+点击坐标错位 -->
-  <style>
-    * { margin:0; padding:0; border:0; }
-    html, body {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      touch-action: none;
-      background: #ffffff;
-    }
-    canvas#GameCanvas {
-      display: block !important;
-      position: absolute !important;
-      top: 50% !important;
-      left: 50% !important;
-      transform: translate(-50%, -50%) !important;
-    }
-    #splash {
-      position: absolute;
-      width:100%;
-      height:100%;
-      top:0;
-      left:0;
-    }
-  </style>
-
+  <link rel="stylesheet" type="text/css" href="style-mobile.25fc5.css"/>
+  <link rel="icon" href="favicon.8de18.ico"/>
 </head>
 <body>
   <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
@@ -65,22 +48,13 @@
     </div>
   </div>
 
-<!-- 已经改成根目录的settings.js，完全匹配你的文件 -->
-<script src="./settings.js" charset="utf-8"></script>
-<script src="./main.485e2.js" charset="utf-8"></script>
+<script src="src/settings.aec0a.js" charset="utf-8"></script>
+
+<script src="main.d5919.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
-    // 引擎底层boot拦截+资源路径强制修复 根治GitHub 404
-    const originalBoot = window.boot;
-    window.boot = function(){
-        if(window.cc && cc.assetManager){
-            cc.assetManager.downloader.remoteServerRoot = "./";
-            cc.assetManager.bundleRoot = "./";
-        }
-        originalBoot && originalBoot();
-    };
-
+    // open web debugger console
     if (typeof VConsole !== 'undefined') {
         window.vConsole = new VConsole();
     }
@@ -97,13 +71,12 @@
       };
       var domScript = document.createElement('script');
       domScript.async = true;
-      // 强制所有JS走相对路径
-      domScript.src = "./" + moduleName;
+      domScript.src = moduleName;
       domScript.addEventListener('load', scriptLoaded, false);
       document.body.appendChild(domScript);
     }
 
-    loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.577e1.js', function () {
+    loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.f1704.js', function () {
       if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
         loadScript(debug ? 'physics.js' : 'physics-min.7f489.js', window.boot);
       }
