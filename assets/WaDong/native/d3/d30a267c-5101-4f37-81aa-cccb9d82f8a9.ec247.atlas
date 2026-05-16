@@ -1,0 +1,181 @@
+
+shenglidonghua.png
+size: 2089,483
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 1001, 355
+  size: 720, 126
+  orig: 722, 128
+  offset: 1, 1
+  index: -1
+gebo
+  rotate: false
+  xy: 1722, 59
+  size: 107, 83
+  orig: 109, 83
+  offset: 1, 0
+  index: -1
+gebo2
+  rotate: true
+  xy: 1610, 208
+  size: 145, 103
+  orig: 145, 103
+  offset: 0, 0
+  index: -1
+h1
+  rotate: false
+  xy: 1182, 2
+  size: 63, 53
+  orig: 65, 55
+  offset: 1, 1
+  index: -1
+h2
+  rotate: false
+  xy: 1247, 13
+  size: 36, 42
+  orig: 38, 44
+  offset: 1, 1
+  index: -1
+h3
+  rotate: true
+  xy: 1353, 9
+  size: 56, 60
+  orig: 58, 62
+  offset: 1, 1
+  index: -1
+h4
+  rotate: true
+  xy: 1001, 22
+  size: 31, 55
+  orig: 33, 57
+  offset: 1, 1
+  index: -1
+houfa
+  rotate: false
+  xy: 1723, 371
+  size: 245, 110
+  orig: 247, 112
+  offset: 1, 1
+  index: -1
+partical_bg_0000
+  rotate: true
+  xy: 1831, 19
+  size: 103, 127
+  orig: 256, 256
+  offset: 74, 63
+  index: -1
+partical_bg_0001
+  rotate: true
+  xy: 1960, 21
+  size: 101, 127
+  orig: 256, 256
+  offset: 75, 65
+  index: -1
+partical_bg_0002
+  rotate: false
+  xy: 1493, 66
+  size: 115, 125
+  orig: 256, 256
+  offset: 75, 68
+  index: -1
+partical_bg_0003
+  rotate: false
+  xy: 1353, 67
+  size: 138, 124
+  orig: 256, 256
+  offset: 50, 71
+  index: -1
+partical_bg_0004
+  rotate: true
+  xy: 1610, 73
+  size: 133, 110
+  orig: 256, 256
+  offset: 52, 73
+  index: -1
+partical_bg_0005
+  rotate: false
+  xy: 1723, 258
+  size: 132, 111
+  orig: 256, 256
+  offset: 54, 76
+  index: -1
+partical_bg_0006
+  rotate: true
+  xy: 1857, 240
+  size: 129, 111
+  orig: 256, 256
+  offset: 56, 79
+  index: -1
+partical_bg_0007
+  rotate: true
+  xy: 1970, 239
+  size: 126, 112
+  orig: 256, 256
+  offset: 58, 81
+  index: -1
+partical_bg_0008
+  rotate: false
+  xy: 1722, 144
+  size: 123, 112
+  orig: 256, 256
+  offset: 60, 84
+  index: -1
+partical_bg_0009
+  rotate: false
+  xy: 1847, 124
+  size: 119, 114
+  orig: 256, 256
+  offset: 62, 86
+  index: -1
+partical_bg_0010
+  rotate: false
+  xy: 1970, 367
+  size: 116, 114
+  orig: 256, 256
+  offset: 64, 89
+  index: -1
+partical_bg_0011
+  rotate: true
+  xy: 1968, 124
+  size: 113, 115
+  orig: 256, 256
+  offset: 66, 91
+  index: -1
+s
+  rotate: false
+  xy: 1001, 55
+  size: 179, 298
+  orig: 181, 300
+  offset: 1, 1
+  index: -1
+s1
+  rotate: false
+  xy: 1182, 57
+  size: 169, 296
+  orig: 171, 298
+  offset: 1, 1
+  index: -1
+st
+  rotate: false
+  xy: 1353, 193
+  size: 255, 160
+  orig: 258, 163
+  offset: 1, 1
+  index: -1
+tou1
+  rotate: true
+  xy: 2, 9
+  size: 472, 523
+  orig: 474, 525
+  offset: 1, 1
+  index: -1
+tou2
+  rotate: false
+  xy: 527, 20
+  size: 472, 461
+  orig: 474, 463
+  offset: 1, 1
+  index: -1

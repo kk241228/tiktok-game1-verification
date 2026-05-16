@@ -1,0 +1,41 @@
+
+未标题-1.png
+size: 673,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lun_1
+  rotate: false
+  xy: 334, 5
+  size: 88, 87
+  orig: 90, 89
+  offset: 1, 1
+  index: -1
+lun_2
+  rotate: false
+  xy: 546, 95
+  size: 94, 94
+  orig: 97, 96
+  offset: 2, 1
+  index: -1
+st
+  rotate: false
+  xy: 2, 2
+  size: 330, 338
+  orig: 332, 341
+  offset: 1, 1
+  index: -1
+t
+  rotate: false
+  xy: 334, 94
+  size: 210, 246
+  orig: 212, 248
+  offset: 1, 1
+  index: -1
+xz
+  rotate: true
+  xy: 546, 191
+  size: 149, 125
+  orig: 151, 127
+  offset: 1, 1
+  index: -1

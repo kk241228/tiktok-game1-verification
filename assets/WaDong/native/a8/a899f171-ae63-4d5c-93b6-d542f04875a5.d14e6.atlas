@@ -1,0 +1,174 @@
+
+donghauban.png
+size: 1685,1245
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 523
+  size: 720, 1680
+  orig: 720, 1680
+  offset: 0, 0
+  index: -1
+gebo
+  rotate: false
+  xy: 646, 27
+  size: 147, 105
+  orig: 147, 105
+  offset: 0, 0
+  index: -1
+h1
+  rotate: true
+  xy: 417, 36
+  size: 63, 53
+  orig: 65, 55
+  offset: 1, 1
+  index: -1
+h2
+  rotate: true
+  xy: 1514, 45
+  size: 36, 42
+  orig: 38, 44
+  offset: 1, 1
+  index: -1
+h3
+  rotate: true
+  xy: 472, 28
+  size: 56, 60
+  orig: 58, 62
+  offset: 1, 1
+  index: -1
+h4
+  rotate: true
+  xy: 2, 2
+  size: 31, 55
+  orig: 33, 57
+  offset: 1, 1
+  index: -1
+houfa
+  rotate: true
+  xy: 1543, 276
+  size: 245, 110
+  orig: 247, 112
+  offset: 1, 1
+  index: -1
+maotou
+  rotate: false
+  xy: 945, 13
+  size: 216, 141
+  orig: 218, 143
+  offset: 1, 1
+  index: -1
+maoyan
+  rotate: false
+  xy: 1543, 199
+  size: 135, 75
+  orig: 137, 77
+  offset: 1, 1
+  index: -1
+qianzhua
+  rotate: false
+  xy: 2, 35
+  size: 241, 64
+  orig: 243, 66
+  offset: 1, 1
+  index: -1
+s1
+  rotate: false
+  xy: 795, 57
+  size: 136, 75
+  orig: 138, 77
+  offset: 1, 1
+  index: -1
+s2
+  rotate: false
+  xy: 795, 11
+  size: 125, 44
+  orig: 127, 46
+  offset: 1, 1
+  index: -1
+s3
+  rotate: false
+  xy: 245, 31
+  size: 170, 68
+  orig: 172, 70
+  offset: 1, 1
+  index: -1
+s4
+  rotate: false
+  xy: 1163, 12
+  size: 179, 142
+  orig: 181, 144
+  offset: 1, 1
+  index: -1
+s5
+  rotate: false
+  xy: 1344, 40
+  size: 168, 104
+  orig: 170, 106
+  offset: 1, 1
+  index: -1
+s6
+  rotate: false
+  xy: 1371, 146
+  size: 169, 57
+  orig: 171, 59
+  offset: 1, 1
+  index: -1
+s7
+  rotate: false
+  xy: 476, 86
+  size: 168, 46
+  orig: 170, 48
+  offset: 1, 1
+  index: -1
+s8
+  rotate: false
+  xy: 1542, 144
+  size: 141, 53
+  orig: 143, 55
+  offset: 1, 1
+  index: -1
+s9
+  rotate: false
+  xy: 1514, 83
+  size: 113, 59
+  orig: 115, 61
+  offset: 1, 1
+  index: -1
+st
+  rotate: true
+  xy: 1371, 205
+  size: 316, 170
+  orig: 318, 173
+  offset: 1, 1
+  index: -1
+tou1
+  rotate: false
+  xy: 2, 101
+  size: 472, 420
+  orig: 474, 422
+  offset: 1, 1
+  index: -1
+tou2
+  rotate: false
+  xy: 476, 134
+  size: 467, 387
+  orig: 467, 387
+  offset: 0, 0
+  index: -1
+tou3
+  rotate: false
+  xy: 945, 156
+  size: 424, 365
+  orig: 427, 367
+  offset: 1, 1
+  index: -1
+zzzz
+  rotate: false
+  xy: 1629, 100
+  size: 47, 42
+  orig: 49, 44
+  offset: 1, 1
+  index: -1

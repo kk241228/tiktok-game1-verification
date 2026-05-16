@@ -1,0 +1,55 @@
+
+未标题-1.png
+size: 300,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 166, 2
+  size: 50, 102
+  orig: 52, 104
+  offset: 1, 1
+  index: -1
+chuan_1
+  rotate: true
+  xy: 166, 106
+  size: 34, 103
+  orig: 36, 105
+  offset: 1, 1
+  index: -1
+chuan_2
+  rotate: true
+  xy: 166, 106
+  size: 34, 103
+  orig: 36, 105
+  offset: 1, 1
+  index: -1
+chuan_3
+  rotate: true
+  xy: 166, 106
+  size: 34, 103
+  orig: 36, 105
+  offset: 1, 1
+  index: -1
+lu_1
+  rotate: false
+  xy: 2, 3
+  size: 162, 137
+  orig: 164, 139
+  offset: 1, 1
+  index: -1
+lu_2
+  rotate: false
+  xy: 2, 3
+  size: 162, 137
+  orig: 164, 139
+  offset: 1, 1
+  index: -1
+shou
+  rotate: true
+  xy: 218, 5
+  size: 99, 80
+  orig: 101, 82
+  offset: 1, 1
+  index: -1

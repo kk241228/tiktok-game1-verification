@@ -15,11 +15,11 @@ window._CCSettings = {
         width: 720,
         height: 1280
     },
-    // 核心适配参数，解决画面显示不全
-    fitWidth: false,
-    fitHeight: true,
+    // 核心修复：根治画面全屏偏移、点击位置错位
+    fitWidth: true,
+    fitHeight: false,
     adaptScreen: true,
-    autoFit: true,
+    autoFit: false,
     isLandscape: false,
     debug: false,
     showFPS: false,
